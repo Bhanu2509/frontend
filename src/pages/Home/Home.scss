@@ -44,7 +44,7 @@
   }
 }
 .hero-image {
-  width: 50%;
+  width: 30%;
 }
 @media screen and (max-width: 600px) {
   .hero {
@@ -61,9 +61,9 @@
     text-align: center;
   }
   .hero-image {
-    width: 100%;
+    width: 50%;
     &img {
-      width: 100%;
+      width: 50%;
     }
   }
 }
