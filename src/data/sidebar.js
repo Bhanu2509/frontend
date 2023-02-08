@@ -1,5 +1,6 @@
 import { FaTh, faregchartbar, FaCommentAlt } from "react-icons/fa";
 import { BiImageAdd } from "react-icons/bi";
+import { FcManager } from "react-icons/fc";
 
 const menu = [
   {
@@ -14,7 +15,7 @@ const menu = [
   },
   {
     title: "Account",
-    icon: <faregchartbar />,
+    icon: <FcManager />,
     childrens: [
       {
         title: "Profile",
