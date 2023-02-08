@@ -49,9 +49,9 @@ const Home = () => {
             </button>
           </div>
           <div className="--flex-start">
-            <NumberText num="14K" text="Brand Owners" />
-            <NumberText num="23K" text="Active Users" />
-            <NumberText num="500+" text="Partners" />
+          
+            <NumberText num="23+" text="Active Clients" />
+            <NumberText num="50+" text="Partners" />
           </div>
         </div>
 
