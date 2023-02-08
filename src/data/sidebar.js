@@ -1,4 +1,4 @@
-import { FaTh, FaRegChartBar, FaCommentAlt } from "react-icons/fa";
+import { FaTh, VscAccount, FaCommentAlt } from "react-icons/fa";
 import { BiImageAdd } from "react-icons/bi";
 
 const menu = [
@@ -14,7 +14,7 @@ const menu = [
   },
   {
     title: "Account",
-    icon: <FaRegChartBar />,
+    icon: <VscAccount />,
     childrens: [
       {
         title: "Profile",
