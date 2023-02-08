@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { SpinnerImg } from "../../loader/Loader";
 import "./productList.scss";
 import { FaEdit, FaTrashAlt } from "react-icons/fa";
-import { AiOutlineEye } from "react-icons/ai";
+import { AiOutlineFolderView } from "react-icons/ai";
 import Search from "../../search/Search";
 import { useDispatch, useSelector } from "react-redux";
 import {
@@ -133,7 +133,7 @@ const ProductList = ({ products, isLoading }) => {
                       <td className="icons">
                         <span>
                           <Link to={`/product-detail/${_id}`}>
-                            <AiOutlineEye size={25} color={"purple"} />
+                            <AiOutlineFolderView size={25} color={"blue"} />
                           </Link>
                         </span>
                         <span>
