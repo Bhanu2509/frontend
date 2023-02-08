@@ -1,6 +1,6 @@
-import { FaTh, faregchartbar, FaCommentAlt } from "react-icons/fa";
+import { FaTh, FaCommentAlt } from "react-icons/fa";
 import { BiImageAdd } from "react-icons/bi";
-import { FcManager } from "react-icons/fc";
+import { RiAccountCircleLine } from "react-icons/ri";
 
 const menu = [
   {
@@ -15,7 +15,7 @@ const menu = [
   },
   {
     title: "Account",
-    icon: <FcManager />,
+    icon: <RiAccountCircleLine />,
     childrens: [
       {
         title: "Profile",
